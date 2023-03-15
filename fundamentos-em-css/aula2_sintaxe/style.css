@@ -1,0 +1,48 @@
+/*
+Cascate Style Sheet
+
+h2: tag
+. : classe
+# : id
+*/
+h1{
+    color: red
+}
+
+main h1 {
+    color: black;
+}
+
+h2 {
+    color: green;
+}
+
+p{
+    color: yellowgreen;
+}
+
+#titulo-primeira-aula {
+    text-decoration: none;
+}
+
+#titulo-segunda-aula {
+    color: brown;
+}
+.titulo-aula {
+    text-decoration: underline;
+}
+
+.texto-azul {
+    color: blue;
+}
+
+.texto-vermelho {
+    color: red;
+}
+
+.texto-vermelho .comentario{
+    color: blueviolet;
+}
+.texto-azul .comentario {
+    color: green;
+}
