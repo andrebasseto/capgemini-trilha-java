@@ -1,0 +1,29 @@
+/*
+Fonte
+*/
+
+@font-face {
+    font-family: 'AlexBrush';
+    src: url("AlexBrush-Regular.ttf");
+}
+
+main{
+    /*font-family: 'AlexBrush';*/
+    font-family: Arial, Helvetica, sans-serif;
+    /*font-style: italic;*/
+    /*font-weight: bold;*/
+    font-variant: normal;
+    font-size: 1rem;
+}
+
+p {
+    text-indent: 2rem;
+    text-align: start;
+}
+
+h2{
+    text-decoration: underline;
+}
+h2#titulo-primeira-aula{
+    letter-spacing: 1rem;
+}
